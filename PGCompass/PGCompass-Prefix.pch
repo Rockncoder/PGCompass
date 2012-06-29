@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PGCompass' target in the 'PGCompass' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
