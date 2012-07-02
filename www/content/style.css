@@ -1,0 +1,9 @@
+
+/* the initial rotation value */
+#compass
+{
+	transform:rotate(0deg); /* in case someone creates a compliant browser */
+	-ms-transform:rotate(0deg); /* WP7 */
+	-webkit-transform:rotate(0deg); /* iOS and Android */
+}
+

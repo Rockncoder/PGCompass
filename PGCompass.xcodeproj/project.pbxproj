@@ -38,6 +38,7 @@
 		054DA167159E01C70055C746 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054DA166159E01C70055C746 /* MainViewController.m */; };
 		054DA169159E01C70055C746 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054DA168159E01C70055C746 /* MainViewController.xib */; };
 		054DA16D159E01C70055C746 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 054DA16C159E01C70055C746 /* verify.sh */; };
+		054DA174159E02470055C746 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 054DA173159E02470055C746 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		054DA12F159E01C70055C746 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		054DA131159E01C70055C746 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		054DA133159E01C70055C746 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		054DA137159E01C70055C746 /* PGCompass-Info.plist */ = {isa = PBXFileReference; path = "PGCompass-Info.plist"; sourceTree = "<group>"; };
+		054DA137159E01C70055C746 /* PGCompass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PGCompass-Info.plist"; sourceTree = "<group>"; };
 		054DA139159E01C70055C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		054DA13B159E01C70055C746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		054DA13D159E01C70055C746 /* PGCompass-Prefix.pch */ = {isa = PBXFileReference; path = "PGCompass-Prefix.pch"; sourceTree = "<group>"; };
+		054DA13D159E01C70055C746 /* PGCompass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PGCompass-Prefix.pch"; sourceTree = "<group>"; };
 		054DA13E159E01C70055C746 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		054DA143159E01C70055C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		054DA147159E01C70055C746 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		054DA15B159E01C70055C746 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		054DA15D159E01C70055C746 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		054DA15F159E01C70055C746 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		054DA162159E01C70055C746 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		054DA162159E01C70055C746 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		054DA163159E01C70055C746 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		054DA165159E01C70055C746 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		054DA165159E01C70055C746 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		054DA166159E01C70055C746 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		054DA168159E01C70055C746 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		054DA16B159E01C70055C746 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		054DA16B159E01C70055C746 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		054DA16C159E01C70055C746 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		054DA173159E02470055C746 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		054DA109159E01C60055C746 = {
 			isa = PBXGroup;
 			children = (
+				054DA173159E02470055C746 /* www */,
 				054DA135159E01C70055C746 /* PGCompass */,
 				054DA11A159E01C60055C746 /* Frameworks */,
 				054DA118159E01C60055C746 /* Products */,
@@ -330,6 +333,7 @@
 				054DA160159E01C70055C746 /* Cordova.plist in Resources */,
 				054DA169159E01C70055C746 /* MainViewController.xib in Resources */,
 				054DA16D159E01C70055C746 /* verify.sh in Resources */,
+				054DA174159E02470055C746 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
